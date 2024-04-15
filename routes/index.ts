@@ -77,8 +77,6 @@ export const PATH_AUTH = {
   signin: path(ROOTS_AUTH, '/signin'),
   signup: path(ROOTS_AUTH, '/signup'),
   passwordReset: path(ROOTS_AUTH, '/password-reset'),
-  clerk: path(ROOTS_AUTH, '/clerk'),
-  auth0: path(ROOTS_AUTH, '/auth0'),
 };
 
 export const PATH_START = {
@@ -100,8 +98,6 @@ export const PATH_GITHUB = {
 
 export const PATH_AUTH_PROVIDERS = {
   root: ROOTS_AUTH_PROVIDERS,
-  clerk: path(ROOTS_AUTH_PROVIDERS, '/clerk'),
-  auth0: path(ROOTS_AUTH_PROVIDERS, '/auth0'),
 };
 
 export const PATH_ABOUT = {
