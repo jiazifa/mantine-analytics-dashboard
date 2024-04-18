@@ -10,7 +10,7 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { PATH_AUTH, PATH_DASHBOARD, PATH_DOCS, PATH_GITHUB } from '@/routes';
+import { PATH_AUTH, PATH_DASHBOARD, PATH_GITHUB } from '@/utils/route';
 import { Logo } from '@/components';
 import Link from 'next/link';
 import classes from './HeaderNav.module.css';
@@ -28,10 +28,6 @@ const MOCK_DATA = [
   {
     link: 'mailto:kelvin.kiprop96@gmail.com',
     label: 'support',
-  },
-  {
-    link: PATH_DOCS.root,
-    label: 'documentation',
   },
 ];
 

@@ -17,7 +17,7 @@ import {
   Text,
   TextInput,
 } from '@mantine/core';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { useForm } from '@mantine/form';
 import { IconCloudUpload, IconDeviceFloppy } from '@tabler/icons-react';
 import { PageHeader, Surface, TextEditor } from '@/components';

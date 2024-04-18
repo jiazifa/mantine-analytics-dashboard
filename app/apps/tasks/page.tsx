@@ -1,6 +1,6 @@
 import { Anchor, Container, Stack } from '@mantine/core';
 import { KanbanBoard, PageHeader } from '@/components';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 
 const items = [
   { title: 'Dashboard', href: PATH_DASHBOARD.default },

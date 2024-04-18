@@ -7,7 +7,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { createEventId, INITIAL_EVENTS } from '@/utils';
 import { PageHeader, Surface } from '@/components';
 import { Metadata } from 'next';
@@ -146,12 +146,12 @@ function Calendar() {
               eventContent={renderEventContent} // custom render function
               eventClick={handleEventClick}
               eventsSet={handleEvents}
-              // called after events are initialized/added/changed/removed
-              /* you can update a remote database when these fire:
-              eventAdd={function(){}}
-              eventChange={function(){}}
-              eventRemove={function(){}}
-              */
+            // called after events are initialized/added/changed/removed
+            /* you can update a remote database when these fire:
+            eventAdd={function(){}}
+            eventChange={function(){}}
+            eventRemove={function(){}}
+            */
             />
           </Surface>
         </Stack>

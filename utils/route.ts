@@ -19,8 +19,6 @@ const ROOTS_ABOUT = '/pages/about';
 export const PATH_DASHBOARD = {
   root: ROOTS_DASHBOARD,
   default: path(ROOTS_DASHBOARD, '/default'),
-  analytics: path(ROOTS_DASHBOARD, '/analytics'),
-  saas: path(ROOTS_DASHBOARD, '/saas'),
 };
 
 export const PATH_APPS = {
@@ -77,14 +75,6 @@ export const PATH_AUTH = {
   signin: path(ROOTS_AUTH, '/signin'),
   signup: path(ROOTS_AUTH, '/signup'),
   passwordReset: path(ROOTS_AUTH, '/password-reset'),
-};
-
-export const PATH_START = {
-  root: 'https://mantine-analytics-dashboard-docs.netlify.app/getting-started',
-};
-
-export const PATH_DOCS = {
-  root: 'https://mantine-analytics-dashboard-docs.netlify.app/',
 };
 
 export const PATH_CHANGELOG = {

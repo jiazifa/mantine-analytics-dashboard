@@ -2,7 +2,7 @@
 
 import { Anchor, Container, PaperProps, Stack } from '@mantine/core';
 import { InvoiceDetailsCard, PageHeader } from '@/components';
-import { PATH_DASHBOARD, PATH_INVOICES } from '@/routes';
+import { PATH_DASHBOARD, PATH_INVOICES } from '@/utils/route';
 import { Metadata } from 'next';
 
 const items = [

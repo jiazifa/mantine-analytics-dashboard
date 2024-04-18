@@ -8,7 +8,7 @@ import {
   Stack,
   Text,
 } from '@mantine/core';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { PageHeader, Surface } from '@/components';
 import { Metadata } from 'next';
 

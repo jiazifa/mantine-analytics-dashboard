@@ -13,7 +13,7 @@ import {
 import { IconChevronLeft } from '@tabler/icons-react';
 import React from 'react';
 import Link from 'next/link';
-import { PATH_AUTH, PATH_DASHBOARD } from '@/routes';
+import { PATH_AUTH, PATH_DASHBOARD } from '@/utils/route';
 import { useMediaQuery } from '@mantine/hooks';
 import classes from './page.module.css';
 import { Surface } from '@/components';

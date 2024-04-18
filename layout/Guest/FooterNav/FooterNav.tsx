@@ -20,7 +20,6 @@ import {
   IconWorld,
 } from '@tabler/icons-react';
 import { useMediaQuery } from '@mantine/hooks';
-import { PATH_DOCS } from '@/routes';
 import classes from './FooterNav.module.css';
 
 const ICON_SIZE = 18;

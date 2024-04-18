@@ -11,7 +11,7 @@ import {
 } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { IconDots } from '@tabler/icons-react';
-import { PATH_GITHUB } from '@/routes';
+import { PATH_GITHUB } from '@/utils/route';
 
 const FooterNav = () => {
   const theme = useMantineTheme();

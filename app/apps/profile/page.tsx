@@ -16,7 +16,7 @@ import {
   UnstyledButton,
   useMantineTheme,
 } from '@mantine/core';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import {
   PageHeader,
   ProfileStatsCard,

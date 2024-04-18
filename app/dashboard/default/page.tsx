@@ -20,7 +20,7 @@ import {
   StatsGrid,
 } from '@/components';
 import Link from 'next/link';
-import { PATH_TASKS } from '@/routes';
+import { PATH_TASKS } from '@/utils/route';
 import { useFetchData } from '@/hooks';
 
 const PAPER_PROPS: PaperProps = {

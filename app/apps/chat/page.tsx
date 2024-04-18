@@ -22,7 +22,7 @@ import { Link, RichTextEditor } from '@mantine/tiptap';
 import { BubbleMenu, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import {
   ChatItem,
   ChatsList,
@@ -34,8 +34,6 @@ import {
 import { IconDotsVertical, IconSearch, IconSend } from '@tabler/icons-react';
 import { useColorScheme, useMediaQuery } from '@mantine/hooks';
 import { Carousel } from '@mantine/carousel';
-import ChatsListData from '@/public/mocks/ChatsList.json';
-import ChatItemsData from '@/public/mocks/ChatItems.json';
 import UserProfileData from '@/public/mocks/UserProfile.json';
 import { useFetchData } from '@/hooks';
 
@@ -50,8 +48,6 @@ const items = [
     {item.title}
   </Anchor>
 ));
-
-const ICON_SIZE = 16;
 
 const PAPER_PROPS: PaperProps = {
   shadow: 'md',

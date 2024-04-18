@@ -10,7 +10,7 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import Link from 'next/link';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { IconChevronLeft, IconHome2 } from '@tabler/icons-react';
 import { useRouter } from 'next/navigation';
 import classes from './error.module.css';

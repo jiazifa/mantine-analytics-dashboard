@@ -32,9 +32,8 @@ import {
   PATH_APPS,
   PATH_AUTH,
   PATH_DASHBOARD,
-  PATH_DOCS,
   PATH_GITHUB,
-} from '@/routes';
+} from '@/utils/route';
 import {
   IconAdjustmentsHorizontal,
   IconApps,
@@ -153,16 +152,6 @@ const DASHBOARDS = [
     img: '/showcase/dashboard-default.png',
     title: 'default',
     link: PATH_DASHBOARD.default,
-  },
-  {
-    img: '/showcase/dashboard-analytics.png',
-    title: 'analytics',
-    link: PATH_DASHBOARD.analytics,
-  },
-  {
-    img: '/showcase/dashboard-saas.png',
-    title: 'saas',
-    link: PATH_DASHBOARD.saas,
   },
   {
     img: '/showcase/dashboard-default-dark.png',

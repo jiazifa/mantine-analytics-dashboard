@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="en" className={openSans.className}>
       <head>
         <title>DesignSparx - Nextjs Mantine Admin Dashboard Template</title>
-        <link
+        {/* <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
-        />
+        /> */}
         <link
           rel="icon"
           type="image/png"

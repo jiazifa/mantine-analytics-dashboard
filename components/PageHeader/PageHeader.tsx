@@ -16,7 +16,7 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 import { IconPlus, IconRefresh } from '@tabler/icons-react';
-import { FilterDateMenu, Surface } from '@/components';
+import { Surface } from '@/components';
 import { useColorScheme } from '@mantine/hooks';
 
 type PageHeaderProps = {
@@ -69,12 +69,6 @@ const PageHeader = (props: PageHeaderProps) => {
               <Title order={3}>{title}</Title>
               <Text>Welcome back, Kelvin!</Text>
             </Stack>
-            <Flex align="center" gap="sm">
-              <ActionIcon variant="subtle">
-                <IconRefresh size={16} />
-              </ActionIcon>
-              <FilterDateMenu />
-            </Flex>
           </Flex>
         ) : invoiceAction ? (
           <Flex

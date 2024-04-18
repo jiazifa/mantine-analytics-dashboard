@@ -1,7 +1,6 @@
 import Logo from './Logo/Logo';
 import ToggleTheme from './ToggleTheme/ToggleTheme';
 import LanguagePicker from '@/components/LanguagePicker/LanguagePicker';
-import FilterDateMenu from '@/components/FilterDateMenu/FilterDateMenu';
 import StatsGrid from '@/components/StatsGrid/StatsGrid';
 import RevenueChart from '@/components/RevenueChart/RevenueChart';
 import SalesChart from '@/components/SalesChart/SalesChart';
@@ -38,7 +37,6 @@ export {
   Logo,
   ToggleTheme,
   LanguagePicker,
-  FilterDateMenu,
   StatsGrid,
   RevenueChart,
   SalesChart,

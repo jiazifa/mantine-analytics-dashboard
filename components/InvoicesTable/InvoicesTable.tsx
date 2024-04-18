@@ -27,7 +27,7 @@ import { Invoices, InvoiceStatus } from '@/types';
 import { useDebouncedValue } from '@mantine/hooks';
 import { IconCloudDownload, IconEye, IconSearch } from '@tabler/icons-react';
 import { useRouter } from 'next/navigation';
-import { PATH_INVOICES } from '@/routes';
+import { PATH_INVOICES } from '@/utils/route';
 import { ErrorAlert } from '@/components';
 
 const PAGE_SIZES = [5, 10, 20];

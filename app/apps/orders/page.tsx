@@ -10,7 +10,7 @@ import {
   Stack,
   Text,
 } from '@mantine/core';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { OrdersTable, PageHeader } from '@/components';
 import { IconDotsVertical } from '@tabler/icons-react';
 import { useFetchData } from '@/hooks';

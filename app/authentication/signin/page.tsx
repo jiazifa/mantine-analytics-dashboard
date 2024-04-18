@@ -13,7 +13,7 @@ import {
   Title,
 } from '@mantine/core';
 import Link from 'next/link';
-import { PATH_AUTH, PATH_DASHBOARD } from '@/routes';
+import { PATH_AUTH, PATH_DASHBOARD } from '@/utils/route';
 import { Surface } from '@/components';
 import classes from './page.module.css';
 import { useForm } from '@mantine/form';

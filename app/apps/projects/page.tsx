@@ -8,7 +8,7 @@ import {
   Skeleton,
   Stack,
 } from '@mantine/core';
-import { PATH_DASHBOARD } from '@/routes';
+import { PATH_DASHBOARD } from '@/utils/route';
 import { ErrorAlert, PageHeader, ProjectsCard } from '@/components';
 import { useFetchData } from '@/hooks';
 
@@ -65,12 +65,12 @@ function Projects() {
             >
               {projectsLoading
                 ? Array.from({ length: 8 }).map((o, i) => (
-                    <Skeleton
-                      key={`project-loading-${i}`}
-                      visible={true}
-                      height={300}
-                    />
-                  ))
+                  <Skeleton
+                    key={`project-loading-${i}`}
+                    visible={true}
+                    height={300}
+                  />
+                ))
                 : projectItems}
             </SimpleGrid>
           )}
